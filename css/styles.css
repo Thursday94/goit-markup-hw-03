@@ -36,16 +36,24 @@ address {
     margin: 0 auto;  
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+}
 
 .header .container {
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
+}
+
+.header-logo {
+    margin-right: 76px
 }
 
 .header-logo-web {
@@ -66,7 +74,6 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    margin-right: 76px;
 }
 
 .header-nav-list {
@@ -154,18 +161,20 @@ address {
 /*============================ values ================*/
 .values {
     padding-top: 120px;
-    padding-bottom: 116px;
+    padding-bottom: 120px;
     max-width: 1128px;
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 .values-list {
     display: flex;
     gap:24px;
-}
-
-.values-title {
-    visibility: hidden;
 }
 
 .values-item {
@@ -190,11 +199,16 @@ address {
 /*============================== team ================*/
 .team {
     background-color: #f4f4fd;
-    padding-bottom: 116px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     max-width: 1440px;
     margin: 0 auto 124px;
 }
 
+.team .container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .team-title {
     font-weight: 700;
@@ -204,8 +218,7 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 124px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -214,12 +227,17 @@ address {
     gap: 24px;
 }
 
+.team-list li:first-child {
+    border-radius: 0 0 4px 4px;
+}
+
 .team-item {
     background-color: #FFFFFF;
 }
 
 .team-item-image {
     margin-bottom: 32px;
+    display: block
 }
 
 .team-item-name {
@@ -247,6 +265,8 @@ address {
 .portfolio {
     max-width: 1128px;
     margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -257,8 +277,7 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
 }
 
@@ -268,8 +287,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -283,14 +301,16 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
 
 .portfolio-item-image {
- 
+    display: block
+}
 
-
+.portfolio-text-box {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 /*=================================================*/
 /*============================= footer ============*/
@@ -300,6 +320,11 @@ address {
     padding-bottom: 100px;
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.footer-logo {
+margin-bottom: 16px;
+display: inline-block;
 }
 
 .footer-logo-web {
