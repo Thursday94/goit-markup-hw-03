@@ -59,7 +59,9 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
+    padding: 24px 0;
 }
 
 .header-logo-studio {
@@ -168,7 +170,12 @@ address {
     width: 1px;
     height: 1px;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    border: 0;
 }
+
 .values-list {
     display: flex;
     gap:24px;
@@ -230,6 +237,7 @@ address {
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    padding: 32px 0;
 }
 
 .team-item-image {
@@ -319,6 +327,11 @@ address {
     margin: 0 auto;
 }
 
+.footer-logo-full {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -339,7 +352,6 @@ address {
     text-transform: uppercase;
     color: #f4f4fd;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -348,4 +360,5 @@ address {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
 /*===================================================*/
