@@ -31,15 +31,13 @@ address {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;  
+    padding: 0 15px;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
 }
 
 .header .container {
@@ -50,10 +48,7 @@ address {
 
 .header-nav {
     display: flex;
-}
-
-.header-logo {
-    margin-right: 76px;
+    align-items: center;
 }
 
 .header-logo-web {
@@ -64,6 +59,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .header-logo-studio {
@@ -79,6 +75,7 @@ address {
 .header-nav-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0
 }
 
 .header-nav-link {
@@ -232,6 +229,7 @@ address {
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-item-image {
@@ -330,7 +328,6 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -342,6 +339,7 @@ address {
     text-transform: uppercase;
     color: #f4f4fd;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -350,6 +348,4 @@ address {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    padding-top: 16px;
-}
 /*===================================================*/
