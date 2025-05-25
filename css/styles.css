@@ -4,20 +4,49 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+/*============= Reset default browser styles ============*/
 
-/* Reset default browser styles */
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 address {
     font-style: normal;
 }
-/*------------------------------*/
+
+/*========================================================================*/
+/*======================================= header =========================*/
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;  
+}
+
+
+.header .container {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .header-logo-web {
     font-family: "Raleway", sans-serif;
@@ -37,6 +66,12 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    margin-right: 76px;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-nav-link {
@@ -52,6 +87,15 @@ address {
     color: #404bbf;;
 }
 
+.header-address {
+    margin-left: auto;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-address-link {
     font-size: 16px;
     line-height: 1.5;
@@ -63,9 +107,14 @@ address {
 .header-address-link:focus {
     color:#404bbf; 
 }
-
+/*================================================================*/
+/*============================== hero ============================*/
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-page-title {
@@ -75,7 +124,9 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-   
+    max-width: 496px;
+    margin: 0 auto;
+
 }
 
 .hero-button {
@@ -85,12 +136,40 @@ address {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    cursor: pointer
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    margin: 48px auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: 0;
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
+}
+/*====================================================*/
+/*============================ values ================*/
+.values {
+    padding-top: 120px;
+    padding-bottom: 116px;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.values-list {
+    display: flex;
+    gap:24px;
+}
+
+.values-title {
+    visibility: hidden;
+}
+
+.values-item {
+    max-width: 264px;
 }
 
 .values-item-subtitle {
@@ -99,6 +178,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .values-item-text {
@@ -106,9 +186,13 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+/*====================================================*/
+/*============================== team ================*/
 .team {
     background-color: #f4f4fd;
+    padding-bottom: 116px;
+    max-width: 1440px;
+    margin: 0 auto 124px;
 }
 
 
@@ -120,10 +204,22 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 124px;
+    padding-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
+}
+
+.team-item-image {
+    margin-bottom: 32px;
 }
 
 .team-item-name {
@@ -132,12 +228,25 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-item-name-container {
+    text-align: center;
 }
 
 .team-item-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+/*=======================================================*/
+/*=========================== portfolio =================*/
+
+.portfolio {
+    max-width: 1128px;
+    margin: 0 auto;
 }
 
 .portfolio-title {
@@ -148,6 +257,9 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
+
 }
 
 .portfolio-item-title {
@@ -156,18 +268,39 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    justify-content: center;
 }
 
 .portfolio-item-type {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
+.portfolio-item-image {
+ 
+
+
+}
+/*=================================================*/
+/*============================= footer ============*/
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
-
 
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
@@ -194,4 +327,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    padding-top: 16px;
 }
+/*===================================================*/
