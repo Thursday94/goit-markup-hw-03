@@ -181,7 +181,6 @@ address {
 .values-list {
     display: flex;
     gap:24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .values-item {
@@ -336,9 +335,7 @@ address {
     margin: 0 auto;
 }
 
-.footer-logo-full {
-    padding-left: 15px;
-}
+
 
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
