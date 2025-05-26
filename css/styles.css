@@ -30,20 +30,19 @@ address {
 /*======================================= header =========================*/
 
 .container {
-    width: 1158px;
-    margin: 0 auto;  
+    max-width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;  
+    
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    margin: 0 auto;
 }
 
 .header .container {
     display: flex;
     align-items: center;
-    padding: 24px 15px;
 }
 
 .header-nav {
@@ -59,9 +58,9 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
     display: inline-block;
     padding: 24px 0;
+    margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -76,6 +75,7 @@ address {
 
 .header-nav-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -85,12 +85,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
     padding: 24px 0;
-}
-
-.header-nav-link:hover,
-.header-nav-link:focus {
-    color: #404bbf;;
 }
 
 .header-address {
@@ -99,10 +95,13 @@ address {
 
 .header-address-list {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
 .header-address-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -110,7 +109,9 @@ address {
 }
 
 .header-address-link:hover,
-.header-address-link:focus {
+.header-address-link:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
     color:#404bbf; 
 }
 /*================================================================*/
