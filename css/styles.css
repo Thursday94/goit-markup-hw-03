@@ -32,8 +32,7 @@ address {
 .container {
     width: 1158px;
     margin: 0 auto;  
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .header {
@@ -52,10 +51,6 @@ address {
     align-items: center;
 }
 
-.header-logo-full {
-    margin-right: 76px;
-}
-
 .header-logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -64,6 +59,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     display: inline-block;
     padding: 24px 0;
 }
@@ -81,7 +77,6 @@ address {
 .header-nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0
 }
 
 .header-nav-link {
@@ -334,8 +329,6 @@ address {
 }
 
 .footer-logo-full {
-    display: inline-block;
-    margin-bottom: 16px;
     padding-left: 15px;
 }
 
@@ -347,6 +340,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
