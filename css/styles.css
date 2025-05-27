@@ -119,9 +119,8 @@ address {
 .hero {
     background-color: #2e2f42;
     max-width: 1440px;
-    margin: 0 auto 120px;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    margin: 0 auto;
+    padding: 188px 0;
 }
 
 .hero-page-title {
@@ -157,6 +156,10 @@ address {
 }
 /*==============================================================*/
 /*============================ Section-2 VALUES ================*/
+
+.values {
+    padding: 120px 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -199,10 +202,9 @@ address {
 /*============================== Section-3 TEAM ================*/
 .team {
     background-color: #f4f4fd;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
     max-width: 1440px;
-    margin: 120px auto;
+    margin: 0 auto;
 }
 
 .team-title {
@@ -227,15 +229,17 @@ address {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    padding-bottom: 32px;
     text-align: center;
+}
+
+.team-item-name-container {
+    padding: 32px 0;
 }
 
 .team-item-image {
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 32px;
 }
 
 .team-item-name {
@@ -251,13 +255,12 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin: 0;
 }
-/*=======================================================*/
-/*=========================== portfolio =================*/
+/*=================================================================*/
+/*=========================== Section-4 PORTFOLIO =================*/
 
 .portfolio {
-   margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -309,7 +312,7 @@ address {
     border-top: none;
 }
 /*=================================================*/
-/*============================= footer ============*/
+/*============================= FOOTER ============*/
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
