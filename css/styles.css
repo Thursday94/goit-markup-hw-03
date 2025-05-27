@@ -30,9 +30,9 @@ address {
 /*======================================= header =========================*/
 
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;  
+   max-width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;  
     
 }
 
@@ -118,8 +118,6 @@ address {
 /*============================== Section-1 HERO ============================*/
 .hero {
     background-color: #2e2f42;
-    max-width: 1440px;
-    margin: 0 auto;
     padding: 188px 0;
 }
 
@@ -203,8 +201,6 @@ address {
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .team-title {
@@ -316,8 +312,6 @@ address {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    max-width: 1440px;
-    margin: 0 auto;
 }
  
 .footer-logo-web {
