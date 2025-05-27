@@ -114,14 +114,14 @@ address {
 .header-nav-link:focus {
     color:#404bbf; 
 }
-/*================================================================*/
-/*============================== hero ============================*/
+/*==========================================================================*/
+/*============================== Section-1 HERO ============================*/
 .hero {
     background-color: #2e2f42;
+    max-width: 1440px;
+    margin: 0 auto 120px;
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .hero-page-title {
@@ -132,8 +132,7 @@ address {
     text-align: center;
     color: #fff;
     max-width: 496px;
-    margin: 0 auto;
-
+    margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -146,25 +145,18 @@ address {
     cursor: pointer;
     display: block;
     min-width: 169px;
-    height: 56px;
-    margin: 48px auto;
     border-radius: 4px;
     padding: 16px 32px;
     border: 0;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
 }
-/*====================================================*/
-/*============================ values ================*/
-.values {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    max-width: 1128px;
-    margin: 0 auto;
-}
+/*==============================================================*/
+/*============================ Section-2 VALUES ================*/
 
 .visually-hidden {
     position: absolute;
@@ -203,18 +195,14 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/*====================================================*/
-/*============================== team ================*/
+/*==============================================================*/
+/*============================== Section-3 TEAM ================*/
 .team {
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
     max-width: 1440px;
-    margin: 0 auto 124px;
-}
-
-.team .container {
-    padding: 32px 0;
+    margin: 120px auto;
 }
 
 .team-title {
@@ -230,22 +218,24 @@ address {
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 24px;
-}
-
-.team-list li:first-child {
-    border-radius: 0 0 4px 4px;
 }
 
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 .team-item-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 32px;
-    display: block
 }
 
 .team-item-name {
@@ -257,25 +247,17 @@ address {
     margin-bottom: 8px;
 }
 
-.team-item-name-container {
-    text-align: center;
-    padding: 32px 0;
-}
-
 .team-item-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+    margin: 0;
 }
 /*=======================================================*/
 /*=========================== portfolio =================*/
 
 .portfolio {
-    max-width: 1128px;
-    margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
+   margin-bottom: 120px;
 }
 
 .portfolio-title {
@@ -345,7 +327,6 @@ address {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    padding-left: 15px;
 }
 
 .footer-logo-studio {
@@ -363,7 +344,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 279px;
-    padding-left: 15px;
+    max-width: 264px;
 }
 /*===================================================*/
